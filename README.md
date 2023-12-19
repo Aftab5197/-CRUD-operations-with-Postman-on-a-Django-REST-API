@@ -1,0 +1,1 @@
+In Postman, engage with a Django REST API for CRUD actions. POST crafts new items, GET retrieves data, PUT/PATCH updates, and DELETE removes items. Use endpoints like http://localhost:8000/api/items/, employing JSON for efficient data communication and management.
