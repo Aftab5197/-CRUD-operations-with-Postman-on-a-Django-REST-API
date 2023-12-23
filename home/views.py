@@ -33,7 +33,6 @@ def employeeDetailView(request,pk):
     except Employee.DoesNotExist:
         return HttpResponse(status=204)
 
-
     if request.method=='DELETE':
         employee.delete()
         return HttpResponse(status=204)
